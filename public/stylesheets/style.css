@@ -70,6 +70,7 @@ h1 {
 .works-gallery img {
   width: 172.17px;
   height: 172.17px;
+  object-fit: cover;
 }
 
 .works-gallery .item {
@@ -115,6 +116,7 @@ h1 {
 .photo-gallery img {
   width: 190px;
   height: 190px;
+  object-fit: cover;
 }
 
 .photo-gallery .item {
