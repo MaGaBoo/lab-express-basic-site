@@ -19,4 +19,8 @@ app.get("/photo-gallery", (request, response, next) =>
   response.sendFile(__dirname + "/public/views/photo-gallery.html")
 );
 
+app.use((req, res) => {
+  res.status(404).send('Sorry but 404 🤷🏻‍♀️');
+})
+
 app.listen(3000, () => console.log("This is working!"));
